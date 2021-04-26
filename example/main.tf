@@ -5,7 +5,7 @@ provider "equinix" {
 
 module "vsrx" {
   source               = "equinix/vsrx/equinix"
-  version              = "1.0.0-beta"
+  version              = "1.0.0"
   self_managed         = true
   byol                 = true
   license_file         = "/tmp/vsrx-pri.lic"
