@@ -102,7 +102,7 @@ variable "additional_bandwidth" {
 }
 
 variable "ssh_key" {
-  description = "Additional internet bandwidth for a device"
+  description = "SSH public key for a device"
   type = object({
     username = string
     key_name = string
